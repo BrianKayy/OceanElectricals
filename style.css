@@ -933,7 +933,8 @@ body{
  .new{
         margin: auto;
         display: grid;
-        padding-top: 55px;
+        padding: 55px 15px 10px 15px;
+        
  }
       
 .new h3{
