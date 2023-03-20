@@ -50,7 +50,7 @@ body{
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
     
 .container{
     background-color: #000;
@@ -63,7 +63,7 @@ body{
 
 .container .header{
     color: #fff;
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
     left: 2px;
 }
@@ -584,7 +584,7 @@ body{
 
 
 
-button {
+.purchase button {
     position: relative;
     padding: 1em 1.8em;
     outline: none;
@@ -776,7 +776,7 @@ button {
    @media only screen and (max-width: 650px){
 
     
-button {
+.purchase button {
     position: relative;
     padding: 0.5em 1em;
     outline: none;
@@ -893,13 +893,13 @@ button {
  .new{
         margin: auto;
         display: grid;
-        padding-top: 10px;
+        padding-top: 55px;
  }
       
 .new h3{
         padding-top: 15px;
         font-size: 45px;
-        color: #e25822;
+        color: #001eff;
         text-align: center;
         text-decoration: overline 3px #000;
 }
@@ -928,25 +928,25 @@ button {
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
         
  .new{
         margin: auto;
         display: grid;
-        padding-top: 5px;
+        padding-top: 55px;
  }
       
 .new h3{
         padding-top: 15px;
-        font-size: 35px;
-        color: #e25822;
+        font-size: 25px;
+        color: #001eff;
         text-align: center;
         text-decoration: overline 2px #000;
 }
 
 .new p{
         padding-top: 10px;
-        font-size: 15px;
+        font-size: 12px;
         color: #444;
         text-align: center;
         text-decoration: overline 1px #001eff;
@@ -965,44 +965,262 @@ button {
         
 }
 
-
-
 }
+
+
+#purchase{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+ 
+}
+
+#purchase .button {
+        appearance: button;
+        background-color: #15db95;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: .8px;
+        line-height: 20px;
+        margin: 0;
+        outline: none;
+        overflow: visible;
+        padding: 13px 19px;
+        text-align: center;
+        text-transform: uppercase;
+        touch-action: manipulation;
+        transform: translateZ(0);
+        transition: filter .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+
+       }
+       
+      
+
+      #purchase .button:after {
+        background-clip: padding-box;
+        background-color: #000;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+       }
+       
+       #purchase .button:main, #purchase .button:focus {
+        user-select: auto;
+       }
+       
+      #purchase .button:hover:not(:disabled) {
+        filter: brightness(1.1);
+       }
+       
+      #purchase .button:disabled {
+        cursor: auto;
+       }
+       
+      #purchase .button:active:after {
+        border-width: 0 0 0px;
+       }
+       
+      #purchase .button:active {
+        padding-bottom: 10px;
+       }
+
+
+
+
+       @media only screen and (max-width: 650px){
+        
+#purchase .button {
+        appearance: button;
+        background-color: #15db95;
+        border: solid transparent;
+        border-radius: 8px;
+        border-width: 0 0 2px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: .4px;
+        line-height: 13px;
+        margin: 0;
+        outline: none;
+        overflow: visible;
+        padding: 7px 10px;
+        text-align: center;
+        text-transform: uppercase;
+        touch-action: manipulation;
+        transform: translateZ(0);
+        transition: filter .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+
+       }
+       
+      
+
+      #purchase .button:after {
+        background-clip: padding-box;
+        background-color: #000;
+        border: solid transparent;
+        border-radius: 8px;
+        border-width: 0 0 2px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+       }
+       
+       #purchase .button:main, #purchase .button:focus {
+        user-select: auto;
+       }
+       
+      #purchase .button:hover:not(:disabled) {
+        filter: brightness(1.1);
+       }
+       
+      #purchase .button:disabled {
+        cursor: auto;
+       }
+       
+      #purchase .button:active:after {
+        border-width: 0 0 0px;
+       }
+       
+      #purchase .button:active {
+        padding-bottom: 10px;
+       }
+
+
+
+       }
+
 
 /*--------------- my_footer--------------------- */
 
 
 .footer-container{
+
     display: flex;
     position: relative;
     bottom: 0;
     width: 100%;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.99);
     align-items: center;
     align-content: center;
-    height: 130px;
+    height: 100%;
 }
 
 .footer-container .logo{
     color: #15db95;
-    font-size: 45px;
+    font-size: 50px;
+
 }
 
-.footer{
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer .social-media{
-    display: grid;
-}
 
 
 .socials{
     display: flex;
     justify-content: space-around;
 
+
+}
+
+.socials a{
+         padding: 18px;
+        color: #fff;
+}
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    color: #999;
+    text-align: center;
 }
 
 
+
+.myH{
+        color: #e25822;
+}
+
+@media only screen and (max-width: 650px){
+        
+.footer-container{
+
+        display: flex;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.99);
+        align-items: center;
+        align-content: center;
+        height: 100%;
+        margin-top: 80px;
+    }
+    
+    .footer-container .logo{
+        color: #15db95;
+        font-size: 18px;
+    
+    }
+    
+    
+    
+    .socials{
+        display: flex;
+        justify-content: space-around;
+    
+    
+    }
+    
+    .socials a{
+            color: #fff;
+            justify-content: space-around;
+            padding:0 5px;
+
+    }
+    .contacts{
+        display: grid;
+        justify-content: space-between;
+        color: #999;
+    }
+    
+    .email{
+            text-decoration: none;
+            display: grid;
+            color: #999;
+    }
+    .email span{
+            color: #e25822;
+    }
+    
+    .myH{
+            color: #e25822;
+    }
+}
