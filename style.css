@@ -128,7 +128,7 @@ body{
 
 .deal h3{
   font-size: 45px;
-  color: #f79e02;
+  color: #e25822;
   text-decoration: overline #000 3px;
 }
 
@@ -279,7 +279,7 @@ body{
   
   .deal h3{
     font-size: 27px;
-    color: #f79e02;
+    color: #e25822;
     text-decoration: overline #000 2px;
   }
   
@@ -436,7 +436,7 @@ body{
   
   .deal h3{
     font-size: 35px;
-    color: #f79e02;
+    color: #e25822;
     text-decoration: overline #000 3px;
   }
   
@@ -773,7 +773,7 @@ button {
 
 
 
-   @media only screen and (max-width: 600px){
+   @media only screen and (max-width: 650px){
 
     
 button {
@@ -884,12 +884,97 @@ button {
    }
 
 
+
+
+
+
+ /*------------------- another blog post -----------------*/
+
+ .new{
+        margin: auto;
+        display: grid;
+        padding-top: 10px;
+ }
+      
+.new h3{
+        padding-top: 15px;
+        font-size: 45px;
+        color: #e25822;
+        text-align: center;
+        text-decoration: overline 3px #000;
+}
+
+.new p{
+        padding-top: 10px;
+        font-size: 25px;
+        color: #444;
+        text-align: center;
+        text-decoration: overline 3px #001eff;
+}
+
+.new .img{
+        margin: auto;
+        overflow: auto;
+        display: flex;
+        scroll-snap-type: x mandatory;
+}
+
+.new .img img{
+        width: 200px;
+        height: auto;
+        padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+        
+ .new{
+        margin: auto;
+        display: grid;
+        padding-top: 5px;
+ }
+      
+.new h3{
+        padding-top: 15px;
+        font-size: 35px;
+        color: #e25822;
+        text-align: center;
+        text-decoration: overline 2px #000;
+}
+
+.new p{
+        padding-top: 10px;
+        font-size: 15px;
+        color: #444;
+        text-align: center;
+        text-decoration: overline 1px #001eff;
+}
+
+.new .img{
+        justify-content: center;
+        
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.new .img img{
+        width: 100px;
+        height: 100px;
+        
+}
+
+
+
+}
+
 /*--------------- my_footer--------------------- */
 
 
 .footer-container{
     display: flex;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     justify-content: space-around;
