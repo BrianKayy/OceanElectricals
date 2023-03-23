@@ -44,7 +44,7 @@ body{
 .container .nav-bar a{
     text-decoration: none;
     font-size: 20px;
-    color: #15db95;
+    color: #fff;
     padding-right: 25px;
 }
 
@@ -76,7 +76,7 @@ body{
 .container .nav-bar a{
     text-decoration: none;
     font-size: 11px;
-    color: #15db95;
+    color: #fff;
     padding-right: 2px;
 }
 }
@@ -108,7 +108,7 @@ body{
 .container .nav-bar a{
     text-decoration: none;
     font-size: 15px;
-    color: #15db95;
+    color: #fff;
     padding-right: 15px;
 }
 
@@ -590,7 +590,7 @@ body{
     outline: none;
     border: 1px solid #303030;
     background: #212121;
-    color: #15db95;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;
@@ -690,7 +690,7 @@ body{
   
 
    button:hover {
-    box-shadow: 0 0 10px #15db95, 0 0 25px #001eff, 0 0 50px #15db95;
+    box-shadow: 0 0 10px #fff, 0 0 25px #001eff, 0 0 50px #fff;
     transition-delay: 0.6s;
    }
    
@@ -703,7 +703,7 @@ body{
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #15db95);
+    background: linear-gradient(90deg, transparent, #fff);
    }
    
    button:hover span:nth-child(1) {
@@ -782,7 +782,7 @@ body{
     outline: none;
     border: 1px solid #303030;
     background: #212121;
-    color: #15db95;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 12px;
@@ -950,7 +950,7 @@ body{
         font-size: 12px;
         color: #444;
         text-align: center;
-        text-decoration: overline 2px #001eff;
+        text-decoration: overline 2px #001eff ;
 }
 
 .new .img{
@@ -979,7 +979,7 @@ body{
 
 #purchase .button {
         appearance: button;
-        background-color: #15db95;
+        background-color: #fff;
         border: solid transparent;
         border-radius: 16px;
         border-width: 0 0 4px;
@@ -1051,7 +1051,7 @@ body{
         
 #purchase .button {
         appearance: button;
-        background-color: #15db95;
+        background-color: #fff;
         border: solid transparent;
         border-radius: 8px;
         border-width: 0 0 2px;
@@ -1138,7 +1138,7 @@ body{
 }
 
 .footer-container .logo{
-    color: #15db95;
+    color: #fff;
     font-size: 50px;
 
 }
@@ -1186,7 +1186,7 @@ body{
     }
     
     .footer-container .logo{
-        color: #15db95;
+        color: #fff;
         font-size: 18px;
     
     }

@@ -1,0 +1,162 @@
+.main{
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.main .shop-container{
+    display: grid;
+    margin: 2px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    border: 1px solid #303c6c;
+    border-radius: 5px;
+}
+
+.main .shop-container h4{
+    color: #001eff;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 4px;
+}
+
+
+.main .shop-container img{
+    width: 300px;
+    height: 350px;
+    margin: 4px;
+}
+
+
+.main .shop-container #myBtn{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 150px;
+    border: none;
+    margin-bottom: 5px;
+    color: #fff;
+    height: 30px;
+    border-radius: 2px;
+    background: #000;
+    cursor: pointer;
+}
+
+.main .shop-container #myBtn .fa-arrow-right{
+    background: #fff;
+    color: #000;
+    width: 30px;
+    height: 26px;
+    padding-top: 5px;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+
+
+.main .shop-container #my-button{
+    width: 120px;
+    border: none;
+    color: #fff;
+    height: 30px;
+    border-radius: 2px;
+    background: #ff5c2b;
+    cursor: pointer;
+    margin: 7px;
+}
+
+
+
+@media only screen and (max-width: 650px){
+    .main{
+        margin: auto;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 7px;
+    }
+    
+    .main .shop-container{
+        display: grid;
+        margin: 2px;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        border: 1px solid #303c6c;
+        border-radius: 5px;
+    }
+    
+    .main .shop-container h4{
+        color: #001eff;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 4px;
+    }
+    
+    
+    .main .shop-container img{
+        width: 170px;
+        height: 200px;
+        margin: 1px;
+    }
+    
+    
+    .main .shop-container #myBtn{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 120px;
+        border: none;
+        margin-bottom: 2px;
+        color: #fff;
+        height: 20px;
+        border-radius: 2px;
+        background: #000;
+        cursor: pointer;
+    }
+    
+    .main .shop-container #myBtn .fa-arrow-right{
+        background: #fff;
+        color: #000;
+        width: 30px;
+        height: 20px;
+        padding-top: 3px;
+        border-radius: 50%;
+        margin-left: 4px;
+    }
+    
+    
+    
+    .main .shop-container #my-button{
+        width: 100px;
+        border: none;
+        color: #fff;
+        height: 20px;
+        border-radius: 2px;
+        background: #ff5c2b;
+        cursor: pointer;
+        margin: 4px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
