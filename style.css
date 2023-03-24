@@ -128,7 +128,7 @@ body{
 
 .deal h3{
   font-size: 45px;
-  color: #e25822;
+  color: #001eff;
   text-decoration: overline #000 3px;
 }
 
@@ -279,7 +279,7 @@ body{
   
   .deal h3{
     font-size: 27px;
-    color: #e25822;
+    color: #001eff;
     text-decoration: overline #000 2px;
   }
   
@@ -436,7 +436,7 @@ body{
   
   .deal h3{
     font-size: 35px;
-    color: #e25822;
+    color: #001eff;
     text-decoration: overline #000 3px;
   }
   
@@ -1157,7 +1157,7 @@ body{
         color: #fff;
 }
 .contacts{
-    display: flex;
+    display: grid;
     justify-content: space-around;
     color: #999;
     text-align: center;
@@ -1166,7 +1166,7 @@ body{
 
 
 .myH{
-        color: #e25822;
+        color: #fff;
 }
 
 @media only screen and (max-width: 650px){
@@ -1218,10 +1218,10 @@ body{
             color: #999;
     }
     .email span{
-            color: #e25822;
+            color: #fff;
     }
     
     .myH{
-            color: #e25822;
+            color: #fff;
     }
 }
