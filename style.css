@@ -914,9 +914,9 @@ body{
 
 .new .img{
         margin: auto;
-        overflow: auto;
+        justify-content: center;
         display: flex;
-        scroll-snap-type: x mandatory;
+        flex-wrap: wrap;
 }
 
 .new .img img{
